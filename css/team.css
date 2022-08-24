@@ -1,3 +1,14 @@
+.container{
+    padding:2em
+}
+
+.team-heading{
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+    font-size: 2em;
+    margin:2em;
+}
+
 .team-container {
     margin: max(100vh, 750px) 0 0 0;
     padding-top: 50px;
@@ -5,20 +16,35 @@
 }
 
 .team-section {
-    margin-top: 100px;
+    margin-top: 10px;
+
 }
 
 .team-container>.container {
-    margin-top:100px;
+    margin-top:10px;
+    margin-bottom: 10px;
+}
+.team-member{
+    border-radius: 5%;
+    margin: 0.2em;
 }
 
 .team-member > img {
     border-radius: 50%;
+    animation: 5s;
+}
+
+.team-member:hover {
+    box-shadow: 6px 6px 5px 3px #946e06;
+    transform: translate(-5px, -5px);
+    transition: 0.3s;
 }
 
 .team-member-name {
     font-size: 1.5rem;
 }
+
+
 
 @media (max-width: 991.98px) {
     #team {

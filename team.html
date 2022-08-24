@@ -37,6 +37,10 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
+
+    <link rel="stylesheet" 
+    href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css
+    ">
   </head>
   <body>
     <!-- Navbar -->
@@ -116,10 +120,11 @@
       <div class="container d-flex-col text-center" id="top-text-container">
         <h1
           style="
-            font-size: 5rem;
+            font-size: 8rem;
             font-family: 'Rubik Dirt', cursive;
             color: white;
           "
+         
         >
           Team Trikona
         </h1>
@@ -131,10 +136,10 @@
     <div class="team-container text-center" id="team">
       <div class="container">
         <!-- Team section div is for one department eg Media Team -->
-        <div class="team-section">
-          <h1>Media Team</h1>
-          <div class="row">
-            <div class="col-sm team-member">
+        <div class="team-section" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="200">
+          <div class="team-heading">Media Team</div>
+          <div class="row" >
+            <div class="col-sm team-member" >
               <img
                 src="./images/SAEblack-03.png"
                 alt=""
@@ -142,6 +147,8 @@
                 width="200"
               />
               <div class="team-member-name">Member1</div>
+              <p>Position</p>>
+
             </div>
 
             <div class="col-sm team-member">
@@ -152,6 +159,7 @@
                 width="200"
               />
               <div class="team-member-name">Member1</div>
+              <div class="position">Position</div>
             </div>
 
             <div class="col-sm team-member">
@@ -162,6 +170,7 @@
                 width="200"
               />
               <div class="team-member-name">Member1</div>
+              <div class="position">Position</div>
             </div>
 
             <div class="col-sm team-member">
@@ -172,6 +181,7 @@
                 width="200"
               />
               <div class="team-member-name">Member1</div>
+              <div class="position">Position</div>
             </div>
 
             <div class="col-sm team-member">
@@ -182,12 +192,13 @@
                 width="200"
               />
               <div class="team-member-name">Member1</div>
+              <div class="position">Position</div>
             </div>
           </div>
         </div>
 
-        <div class="team-section">
-          <h1>Department 2</h1>
+        <div class="team-section" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="200">
+          <div class="team-heading">Media Team</div>
           <div class="row">
             <div class="col-sm team-member">
               <img
@@ -197,6 +208,7 @@
                 width="200"
               />
               <div class="team-member-name">Member1</div>
+              <div class="position">Position</div>
             </div>
 
             <div class="col-sm team-member">
@@ -207,6 +219,7 @@
                 width="200"
               />
               <div class="team-member-name">Member1</div>
+              <div class="position">Position</div>
             </div>
 
             <div class="col-sm team-member">
@@ -217,6 +230,7 @@
                 width="200"
               />
               <div class="team-member-name">Member1</div>
+              <div class="position">Position</div>
             </div>
           </div>
         </div>
@@ -290,5 +304,13 @@
         </a>
       </div>
     </div>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js
+  "></script>
+
+  <script>
+    AOS.init();
+  </script>
+  
   </body>
 </html>

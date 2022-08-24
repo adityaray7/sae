@@ -1,0 +1,36 @@
+.team-container {
+    margin: max(100vh, 750px) 0 0 0;
+    padding-top: 50px;
+    background: white;
+}
+
+.team-section {
+    margin-top: 100px;
+}
+
+.team-container>.container {
+    margin-top:100px;
+}
+
+.team-member > img {
+    border-radius: 50%;
+}
+
+.team-member-name {
+    font-size: 1.5rem;
+}
+
+@media (max-width: 991.98px) {
+    #team {
+        min-height: 600px !important;
+      }
+      #team > .container {
+        padding: 20px !important;
+      }
+
+  
+
+}
+
+
+

@@ -1,28 +1,9 @@
-/* index.html */
-.main-content {
-    font-family: "Bebas Neue", cursive;
-    height: 100vh;
-    min-height: 750px;
-    width: 100vw;
-    max-width: 100%;
-    position: absolute;
-    background-color: black;
-    /* animation: fade 4s; */
-    top: 0;
-    color: black;
-    padding: 30vh 0 0 0;
-  }
-
-#top-text-container {
-    animation: slide 1.5s;
-    animation-timing-function: ease-out;
-}
 
 /* About us */
 
 .about-us-container {
     margin: max(100vh, 750px) 0 0 0;
-    height: 100vh;
+    height: max(100vh, 500px);
     background: white;
   }
 
@@ -61,16 +42,7 @@
       margin: auto 30px;
     }
   
-    .footer-left {
-      margin-right: 50px;
-    }
-  
-    .footer-right {
-      border: solid white;
-      border-width: 0 0 0 2px;
-      margin:20px;
-      padding: 20px;
-    }
+
   }
   @keyframes rotate {
     0% {

@@ -1,23 +1,36 @@
+
 .container{
     padding:2em
+}
+
+
+.team-member{
+    -webkit-box-flex: 0;
+    -ms-flex: 0 0 50%;
+    flex: 0 0 50%;
+    max-width: 50%;
 }
 
 .team-heading{
     border-top: 2px solid black;
     border-bottom: 2px solid black;
     font-size: 2em;
-    margin:2em;
+    margin:1.5em;
 }
 
 .team-container {
     margin: max(100vh, 750px) 0 0 0;
-    padding-top: 50px;
+    padding-top: 30px;
     background: white;
 }
 
 .team-section {
     margin-top: 10px;
 
+}
+
+div.team-member-name.co-coordinator{
+    font-size: 2em;
 }
 
 .team-container>.container {
@@ -32,10 +45,11 @@
 .team-member > img {
     border-radius: 50%;
     animation: 5s;
+    padding: 10px;
 }
 
 .team-member:hover {
-    box-shadow: 6px 6px 5px 3px #946e06;
+    box-shadow: 4px 4px 3px 2px #946e06;
     transform: translate(-5px, -5px);
     transition: 0.3s;
 }

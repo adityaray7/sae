@@ -1,7 +1,5 @@
 
-.container{
-    padding:2em
-}
+
 
 
 .team-member{
@@ -9,6 +7,7 @@
     -ms-flex: 0 0 50%;
     flex: 0 0 50%;
     max-width: 50%;
+    padding: 0 !important;
 }
 
 .team-heading{
@@ -25,7 +24,7 @@
 }
 
 .team-section {
-    margin-top: 10px;
+    margin: 10px auto;
 
 }
 
@@ -37,21 +36,32 @@ div.team-member-name.co-coordinator{
     margin-top:10px;
     margin-bottom: 10px;
 }
+
+
 .team-member{
     border-radius: 5%;
     margin: 0.2em;
 }
 
-.team-member > img {
+.team-member-container > img {
     border-radius: 50%;
     animation: 5s;
     padding: 10px;
+    object-fit: cover;
 }
 
-.team-member:hover {
-    box-shadow: 4px 4px 3px 2px #946e06;
-    transform: translate(-5px, -5px);
-    transition: 0.3s;
+.team-member-container {
+    margin: auto auto;
+    padding: 10px 20px;
+    max-width: fit-content;
+    border-radius: 5%;
+}
+
+.team-member-container:hover {
+    box-shadow: 0 0 0 1px black;;
+    transform: scale(1.05);
+    transition: 0.1s;
+    background-color: rgba(0,0,0,0.15);
 }
 
 .team-member-name {

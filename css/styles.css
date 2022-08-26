@@ -3,7 +3,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Rubik+Dirt&display=swap");
 
 html {
-  scroll-behavior: smooth;
+  scroll-behavior: smooth;  
 }
 
 * {
@@ -71,9 +71,10 @@ html {
       background: rgba(0, 0, 0, 0.7) !important;
       border-radius: 50px;
     }
+
     .footer-left {
-        margin-right: 50px;
-      }
+      text-align: left;
+    }
     
       .footer-right {
         border: solid white;
@@ -81,11 +82,27 @@ html {
         margin:20px;
         padding: 20px;
       }
+    
+      .footer-left > h1,  .footer-right > h1 {
+        font-size: 2rem;
+      }
+
+      .footer-left > h4,  .footer-right > h4 {
+        font-size: 1.5rem;
+      }
+
+      .footer-left > h5,  .footer-right > h5 {
+        font-size: 1rem;
+      }
+      
 }
 
 
 
 /* Footer */
+.footer {
+  padding-bottom: 10px;
+}
 
 .footer-left > * {
   margin-bottom: 0;
@@ -99,7 +116,7 @@ html {
 .social-media-container {
   text-decoration: none;
   position: fixed;
-  right: 0px;
+  left: 0px;
   bottom: 30%;
   background: black;
   z-index: 50;

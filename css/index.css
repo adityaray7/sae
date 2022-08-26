@@ -5,7 +5,6 @@
 
 .about-us-container {
     margin: max(100vh, 750px) 0 0 0;
-    height: max(100vh, 500px);
     background: rbga(255,255,255,0.8);
   }
 
@@ -39,7 +38,7 @@
       margin-top:20px !important;
     }
     #about-us-text {
-      font-size: 1.2rem !important;
+      font-size: 1rem !important;
       margin-bottom: 20px !important;
       margin: auto 30px;
     }

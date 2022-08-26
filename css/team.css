@@ -1,7 +1,6 @@
 
 
 
-
 .team-member{
     -webkit-box-flex: 0;
     -ms-flex: 0 0 50%;
@@ -32,10 +31,6 @@ div.team-member-name.co-coordinator{
     font-size: 2em;
 }
 
-.team-container>.container {
-    margin-top:10px;
-    margin-bottom: 10px;
-}
 
 
 .team-member{
@@ -76,6 +71,16 @@ div.team-member-name.co-coordinator{
       }
       #team > .container {
         padding: 20px !important;
+      }
+
+      #top-text-container > h1 {
+        font-size: 4rem !important;
+      }
+      .team-member {
+        max-width: 100%;
+      }
+      .row {
+        display: block !important;
       }
 
   

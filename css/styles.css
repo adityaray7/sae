@@ -132,13 +132,7 @@ html {
 }
 
 
-.social-media-container:first-child {
-  padding: 10px 10px 0 10px;
-}
 
-.social-media-container:last-child {
-  padding: 0 10px 10px 10px;
-}
 
 
 /* index.html */

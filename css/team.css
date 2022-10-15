@@ -38,6 +38,10 @@ div.team-member-name.co-coordinator{
     margin: 0.2em;
 }
 
+.team-member-description {
+    font-size: 1.3em;
+}
+
 .team-member-container > img {
     border-radius: 50%;
     animation: 5s;

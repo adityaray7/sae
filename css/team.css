@@ -42,11 +42,44 @@ div.team-member-name.co-coordinator{
     font-size: 1.3em;
 }
 
-.team-member-container > img {
-    border-radius: 50%;
-    animation: 5s;
-    padding: 10px;
-    object-fit: cover;
+.team-member-container ul {
+  margin: 0;
+  padding: 20px 0;
+  position: absolute;
+  z-index: 1;
+  top: 25%;
+  display: block;
+  left: 45%;
+  transform: translateX(-50%);
+  opacity: 0;
+}
+
+.team-member-container ul li {
+  width: 30px;
+  height: 30px;
+  border: 1 px solid #fff;
+  border-radius: 50%;
+  margin: 3px;
+  padding: 25px;
+  display: inline-block;
+}
+.team-member-container a {
+  color: #fff;
+}
+
+.img-box:hover {
+  opacity: 0.5;
+}
+
+.img-box:hover ul {
+  opacity: 1;
+}
+
+.img-box > img {
+  border-radius: 50%;
+  animation: 5s;
+  padding: 10px;
+  object-fit: cover;
 }
 
 .team-member-container {
